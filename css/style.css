@@ -18,8 +18,8 @@
   /* Activar flexbox */
   display: flex;
   /* Horizontalmente puedo alinearlos pero tambien distribuirlos | space-around - space-between  */
-  justify-content: space-around;
-  margin: 20px;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 .color-menu {
@@ -63,6 +63,19 @@ footer {
   text-align: center;
 }
 
+#multimedia {
+  background-color: black;
+}
+
+.videos {
+  margin: 10%;
+}
+
+.font-color {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .redes {
   color: #ffffff;
   background-color: rgb(39, 37, 37);
@@ -74,7 +87,7 @@ footer {
 }
 
 .position {
-  width: 5%;
+  width: 10%;
   /* Activar flexbox */
   display: flex;
   justify-content: space-between;
@@ -82,8 +95,8 @@ footer {
 }
 
 .tamaño {
-  width: 50%;
-  height: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
