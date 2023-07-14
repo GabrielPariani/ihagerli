@@ -1,0 +1,63 @@
+/* Header */
+.header-container {
+    color: #ffffff;;
+    background-color: rgb(39, 37, 37);
+    padding: 15px 0;
+    /* Declarar flexibilidad en una caja */
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1; 
+   
+}
+.header {
+    
+    border: 1px solid #ffffff;
+    width: 50%;
+    /* Activar flexbox */
+    display: flex;
+    /* Horizontalmente puedo alinearlos pero tambien distribuirlos | space-around - space-between  */
+    justify-content: space-around;
+    margin: 20px;
+   
+}
+.color-menu{
+    text-decoration:dashed;
+    color: #ffffff;
+    margin: 40px;
+}
+.parrafo-header {
+    margin: 1% 2% 2% 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Fin Header */
+
+/*Carousel*/
+.carousel {
+    margin: 200px auto 200px;
+    width: 60%;
+    height: 60%;
+}
+/*Fin de carousel*/
+
+/* Horarios*/
+.horarios {
+    text-align: center;
+}
+/* Fin Horarios*/
+
+/* Mapa*/
+.mapa {
+    text-align: center;
+}
+/* Fin Mapa*/
+.visitar {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
