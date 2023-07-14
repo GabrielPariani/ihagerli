@@ -2,7 +2,7 @@
 .header-container {
     color: #ffffff;;
     background-color: rgb(39, 37, 37);
-    padding: 15px 0;
+    padding: 8px 0;
     /* Declarar flexibilidad en una caja */
     display: flex;
     position: fixed;
@@ -14,18 +14,18 @@
 .header {
     
     border: 1px solid #ffffff;
-    width: 50%;
+    width: 60%;
     /* Activar flexbox */
     display: flex;
     /* Horizontalmente puedo alinearlos pero tambien distribuirlos | space-around - space-between  */
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
+    margin: 5px;
    
 }
 .color-menu{
     text-decoration:dashed;
     color: #ffffff;
-    margin: 40px;
+    margin: 30px;
 }
 .parrafo-header {
     margin: 1% 2% 2% 2%;
@@ -36,7 +36,7 @@
 
 /*Carousel*/
 .carousel {
-    margin: 200px auto 200px;
+    margin: 150px auto 150px;
     width: 60%;
     height: 60%;
 }
