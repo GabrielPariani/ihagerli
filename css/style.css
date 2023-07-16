@@ -12,6 +12,15 @@
 }
 
 /* Fin Header */
+/* background*/
+#index {
+  background-image: url(../images/fondo1.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Fin background*/
 /*Carousel*/
 .carousel {
   margin: 150px auto 150px;
