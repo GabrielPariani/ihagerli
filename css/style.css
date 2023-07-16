@@ -33,6 +33,12 @@
 .horarios {
   text-align: center;
   color: white;
+  font-size: 50px;
+}
+
+.h2-horario {
+  font-size: 50px;
+  text-decoration: underline;
 }
 
 /* Fin Horarios*/
@@ -58,7 +64,7 @@ footer {
 }
 
 .videos {
-  margin: 5%;
+  margin: 7%;
   display: flex;
   align-content: stretch;
 }
