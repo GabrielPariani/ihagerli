@@ -1,11 +1,12 @@
 .redes {
     color: #ffffff;;
-    background-color: rgb(39, 37, 37);
-    padding: 15px 0;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 0;
     /* Declarar flexibilidad en una caja */
     display: flex;
  align-items: center;
  margin-top: 5%;
+ 
 }
 .position {
     
@@ -14,9 +15,11 @@
     display: flex;
     justify-content: space-between;
     margin: 20px auto 20px;
+    
 }
 
 .tamaño {
-    width: 10px;
-    height: 10px;
+    width: 70px;
+    height: 70px;
+    opacity: 1;
 }
